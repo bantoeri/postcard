@@ -58,7 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rKe-Y7-M7r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="795" y="146"/>
+            <point key="canvasLocation" x="745.5" y="146"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -118,6 +118,15 @@
                                     <rect key="frame" x="16" y="282" width="288" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPm-SB-VBB">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="158" width="200" height="27"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -127,6 +136,7 @@
                                 <exclude reference="Ym9-Sf-6fn"/>
                                 <exclude reference="ysD-5W-pdw"/>
                                 <exclude reference="kHR-6w-z7x"/>
+                                <exclude reference="mPm-SB-VBB"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -136,6 +146,7 @@
                                 <include reference="Ym9-Sf-6fn"/>
                                 <include reference="ysD-5W-pdw"/>
                                 <include reference="kHR-6w-z7x"/>
+                                <include reference="mPm-SB-VBB"/>
                             </mask>
                         </variation>
                     </view>
@@ -146,11 +157,12 @@
                         <outlet property="enterNameTextField" destination="Ym9-Sf-6fn" id="5qV-yA-G4e"/>
                         <outlet property="mailButton" destination="ysD-5W-pdw" id="C8V-Sg-UFb"/>
                         <outlet property="messageLabel" destination="Of0-cI-3JJ" id="EDL-d3-QM5"/>
+                        <outlet property="nameLabel" destination="mPm-SB-VBB" id="0B8-2x-xkP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1338" y="146"/>
+            <point key="canvasLocation" x="1324.5" y="146"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="emc-lB-pGu">
@@ -170,7 +182,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KNF-e5-aUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="177" y="146"/>
+            <point key="canvasLocation" x="178.5" y="146"/>
         </scene>
     </scenes>
     <resources>
